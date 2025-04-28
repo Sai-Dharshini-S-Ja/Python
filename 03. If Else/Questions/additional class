@@ -1,0 +1,10 @@
+a=int(input("enter your mark"))
+b=int(input("enter your mark"))
+c=int(input("enter your mark"))
+d=int(input("enter your mark"))
+e=int(input("enter your mark"))
+f=(a+b+c+d+e)/5
+if(f<35):
+    print("additional class is required")
+else:
+    print("you are good to go")
